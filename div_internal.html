@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div_internal</title>
+    <style>
+        #main{
+            background-color:black;
+            height:400px;
+        }
+        .sub_divs{
+            height:100px;
+        }
+        #div1{
+            background-color: yellow;
+        }
+        #div2{
+            background-color: cyan;
+        }
+        #div3{
+            background-color: brown;
+        }
+        #div4{
+            background-color: aqua;
+        }
+        #part1, #part2, #part3{
+            width:33.3%;
+            float:left;
+        }
+        #part4, #part5{
+            width:50%;
+            float:left;
+        }
+        #part1{
+            background-color:red;
+        }
+        #part2{
+            background-color:pink;
+        }
+        #part3{
+            background-color:orange;
+        }
+        #part4{
+            background-color:purple;
+        }
+        #part5{
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="sub_divs" id="div1"></div>
+        <div class="sub_divs" id="div2">
+            <div class="sub_divs" id="part1"></div>
+            <div class="sub_divs" id="part2"></div>
+            <div class="sub_divs" id="part3"></div>
+        </div>
+        <div class="sub_divs" id="div3">
+            <div class="sub_divs" id="part4"></div>
+            <div class="sub_divs" id="part5"></div>
+        </div>
+        <div class="sub_divs" id="div4"></div>
+    </div>
+</body>
+</html>

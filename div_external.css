@@ -1,0 +1,46 @@
+/* ID SELECTORS */
+#main{
+    background-color:black; height:400px;
+}
+#div1{
+    background-color: yellow;
+}
+#div2{
+    background-color: cyan;
+}
+#div3{
+    background-color: brown;
+}
+#div4{
+    background-color: aqua;
+}
+#part1{
+    background-color:red;
+}
+#part2{
+    background-color:pink;
+}
+#part3{
+    background-color:orange;
+}
+#part4{
+    background-color:purple;
+}
+#part5{
+    background-color:green;
+}
+
+/* CLASS SELECTORS */
+.sub_divs{
+    height:100px;
+}
+
+/* GROUP SELECTORS */
+#part1, #part2, #part3{
+    width:33.3%;
+    float:left;
+}
+#part4, #part5{
+    width:50%;
+    float:left;
+}
