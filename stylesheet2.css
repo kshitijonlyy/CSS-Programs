@@ -1,0 +1,75 @@
+/* TAG SELECTORS */
+button{
+    background-color:rgb(211, 54, 54);
+    color:white;
+    padding:5px;
+    border: 0px;
+    font-size:18px;
+    margin-left:20px;
+    color:white;    
+}
+a{
+    color:rgb(211, 54, 54);
+}
+li{
+    float:left;
+    margin-right:30px;
+}
+
+/* ID SELECTORS */
+#bg{
+    height:460px;
+}
+#div1{
+    height:100px;
+    background-color:rgb(211, 54, 54);
+}
+#div2{
+    height:330px;
+}
+#div3{
+    height:20px;
+    background-color:rgb(211, 54, 54);
+}
+#heading{
+    text-align:center;
+    font-family:French Script MT;
+    color:white;
+    font-size:50px;
+    margin:0px;
+}
+#sub_heading{
+    text-align:center;
+    font-family:Bradley Hand ITC;
+    color:white;
+    font-size:30px;
+    margin:0px;
+}
+#text{
+    width:80%;
+}
+#buttons{
+    width:20%;
+}
+
+/* CLASS SELECTORS */
+.main{
+    float:left;
+    height:330px;
+}
+.headings{
+    font-family:French Script MT;
+}
+.size{
+    font-size:18px;
+}
+
+/* GROUP SELECTORS */
+#head1, #head2{
+    color:rgb(211, 54, 54);
+    margin-left:20px;
+    margin-bottom:10px;
+}
+#a1, #a2{
+    margin-left:18px;
+}
