@@ -1,0 +1,45 @@
+/* UNIVERSAL SELECTOR */
+*{
+    color: white;
+    background-color: black;
+}
+
+/* TAG SELECTORS */
+div{
+    width: 100%;
+    height: auto;
+}
+h1{
+    margin: 0px;
+    font-size: 45px;
+    text-align: center;
+}
+
+/* ID SELECTORS */
+#pic1{
+    background-image: url('../media/1.jpg');
+    background-size: 100% 700px;
+}
+#pic2{
+    background-image: url('../media/2.jpg');
+    background-size: 100% 700px;
+}
+#pic3{
+    background-image: url('../media/3.jpg');
+    background-size: 100% 700px;
+}
+#pic4{
+    background-image: url('../media/4.jpg');
+    background-size: 100% 700px;
+}
+
+/* CLASS SELECTORS */
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.pics{
+    height: 700px;
+    background-attachment: fixed;
+}
