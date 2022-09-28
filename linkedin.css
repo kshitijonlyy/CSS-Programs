@@ -1,0 +1,166 @@
+/* TAG SELECTORS */
+div{
+    width: 100%;
+}
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(40, 62, 74);
+    border-style: solid;
+    border-color: white;
+    font-size: 25px;
+    color: white;
+    font-family: Arial Rounded MT Bold;
+}
+span{
+    padding-top: 42px;
+    margin-left: 10px;
+}
+input{
+    height: 30px;
+    width: 80%;
+    font-size: 25px;
+}
+a{
+    color: rgb(38, 115, 177);
+    text-decoration: none;
+}
+
+/* ID SELECTORS */
+#head1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    float: left;
+    margin-left: 150px;
+}
+#head2{
+    height: 25px;
+    width: 50px;
+    float: left;
+    background-image: url('file:///C:/Users/LENOVO/Desktop/linkedinpage/task1.PNG');
+    background-size: contain;
+    margin-top: 25px;
+}
+#head3{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Arial Rounded MT Bold;
+    margin-left:900px;
+}
+#head4{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    float: left;
+    padding-top: 22px;
+    margin-left: 30px;
+}
+#id1{
+    height: auto;
+    width: auto;
+    margin-left: 120px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#id2{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    background-image: url('file:///C:/Users/LENOVO/Desktop/linkedinpage/task2.PNG');
+    border-radius: 5px;
+    background-size: contain;
+}
+#box1{
+    margin-top: 30px;
+    margin-left: 8%;
+}
+#box2{
+    margin-top: 20px;
+    margin-left: 8%;
+}
+#signIn{
+    height: 50px;
+    width: 81%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(38, 115, 177);
+    border-width: 1px;
+    border-color: black;
+}
+#links{
+    margin-top: 115px;
+    height: auto;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#img{
+    background-image: url(file:///C:/Users/LENOVO/Desktop/linkedinpage/task3.PNG);
+    width: 110px;
+    height: 69px;
+    background-size: contain;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#text{
+    padding-top: 35px;
+    word-spacing: 25px;
+}
+
+/* CLASS SELECTORS */
+.container{
+    height: 800px;
+    background-image: url('file:///C:/Users/LENOVO/Desktop/linkedinpage/lin.jpg');
+    background-size: cover;
+}
+.header{
+    height: 100px;
+    background-color: rgb(40, 62, 74);
+    color: white;
+}
+.body{
+    height: 525px;
+}
+.head{
+    float: left;
+    padding-top: 25px;
+}
+.login{
+    background-color: rgba(225, 225, 225, 0.9);
+    height: 380px;
+    width: 506px;
+    margin-left: 37%;
+    margin-top: 80px;
+    box-shadow: 5px 5px 10px black;
+}
+.name{
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.name1{
+    margin-top: 30px;
+    float: left;
+}
+.form{
+    height: 200px;
+}
+.footer{
+    height: 100px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 22px;
+}
+.down{
+    float: left;
+}
