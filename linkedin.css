@@ -40,7 +40,7 @@ a{
     height: 25px;
     width: 50px;
     float: left;
-    background-image: url('file:///C:/Users/LENOVO/Desktop/linkedinpage/task1.PNG');
+    background-image: url('../media/6.PNG');
     background-size: contain;
     margin-top: 25px;
 }
@@ -72,7 +72,7 @@ a{
     height: 60px;
     width: 60px;
     margin-left: 10px;
-    background-image: url('file:///C:/Users/LENOVO/Desktop/linkedinpage/task2.PNG');
+    background-image: url('../media/7.PNG');
     border-radius: 5px;
     background-size: contain;
 }
@@ -104,9 +104,9 @@ a{
     text-align: center;
 }
 #img{
-    background-image: url(file:///C:/Users/LENOVO/Desktop/linkedinpage/task3.PNG);
-    width: 110px;
-    height: 69px;
+    background-image: url('../media/8.png');
+    width: 130px;
+    height: 49px;
     background-size: contain;
     margin-top: 20px;
     margin-left: 200px;
@@ -115,11 +115,15 @@ a{
     padding-top: 35px;
     word-spacing: 25px;
 }
+#span1{
+    margin-left: 2px;
+    word-spacing: normal;
+}
 
 /* CLASS SELECTORS */
 .container{
     height: 800px;
-    background-image: url('file:///C:/Users/LENOVO/Desktop/linkedinpage/lin.jpg');
+    background-image: url('../media/5.jpg');
     background-size: cover;
 }
 .header{
