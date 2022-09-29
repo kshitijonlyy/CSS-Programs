@@ -1,0 +1,97 @@
+/* UNIVERSAL SELECTOR */
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+/* TAG SELECTORS */
+body{
+    background-color: rgb(27, 188, 155);
+}
+div{
+    width: 100%;
+}
+table{
+    border: 0px;
+    margin: 23px;
+}
+input{
+    box-sizing: border-box;
+    height: 50px;
+    width:300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: rgb(229, 229, 229);
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(229, 229, 229);
+    font-size: 18px;
+    padding-left: 10px;
+}
+i{
+    margin-left: 15px;
+}
+a{
+    color: rgb(22, 160,134);
+    text-decoration: none;
+    font-size: 18px;
+}
+td{
+    font-size: 18px;
+}
+button{
+    background-color: rgb(22, 160,134);
+    border: 0px;
+    border-radius: 10px;
+    width: fill;
+    font-weight: bold;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ID SELECTORS */
+#id1{
+    margin-left: 23px;
+    margin-top: 23px;
+    margin-bottom: 15px;
+}
+#id2{
+    margin-left: 23px;
+    margin-top: 15px;
+}
+#end{
+    text-align: center;
+}
+
+/* CLASS SELECTORS */
+.container{
+    height: 370px;
+    width: 400px;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 125px;
+    border-radius: 10px;
+}
+.heading{
+    height: 60px;
+    background-color: rgb(22, 160,134);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(22, 160,134);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
