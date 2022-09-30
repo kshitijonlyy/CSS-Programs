@@ -1,0 +1,56 @@
+/* TAG SELECTOR */
+body{
+    background-image: url('../media/11.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 650px;
+}
+
+/* ID SELECTORS */
+#wheel1{
+    margin-left: 42px;
+}
+#wheel2{
+    margin-left: 287px;
+}
+
+/* CLASS SELECTORS */
+.car{
+    background-image: url('../media/9.png');
+    height: 140px;
+    width: 400px;
+    background-size: contain;
+    margin-left: 0px;
+    margin-top: 450px;
+    animation: motion 7s 1s alternate;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.wheel{
+    background-image: url('../media/10.png');
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    position: absolute;
+    float: left;
+    margin-top: 67px;
+    animation: wheel 7s 1s alternate;
+}
+/* KEYFRAMES */
+@keyframes motion {
+    from{
+        left: 0px;
+        top: 0px;
+    }
+    to{
+        left: 940px;
+        top: 0px;
+    }
+}
+@keyframes wheel {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(720deg);
+    }
+}
