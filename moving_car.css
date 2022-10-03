@@ -21,7 +21,7 @@ body{
     background-size: contain;
     margin-left: 0px;
     margin-top: 450px;
-    animation: motion 7s 1s alternate;
+    animation: motion 7s 1s alternate linear;
     animation-iteration-count: infinite;
     position: relative;
 }
@@ -32,9 +32,12 @@ body{
     background-size: contain;
     position: absolute;
     float: left;
-    margin-top: 67px;
-    animation: wheel 7s 1s alternate;
+    transform: rotate(0deg);
+    top: 520px;
+    animation: wheel 7s 1s alternate linear;
+    animation-iteration-count: infinite;
 }
+
 /* KEYFRAMES */
 @keyframes motion {
     from{
@@ -48,9 +51,13 @@ body{
 }
 @keyframes wheel {
     from{
+        left: 8px;
+        top: 520px;
         transform: rotate(0deg);
     }
     to{
+        left: 950px;
+        top: 520px;
         transform: rotate(720deg);
     }
 }
