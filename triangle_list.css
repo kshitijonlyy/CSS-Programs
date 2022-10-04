@@ -1,0 +1,13 @@
+*{
+    font-size: 30px;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px;
+}
+li::marker{
+    color: red;
+    content: '\2023';
+}

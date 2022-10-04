@@ -1,0 +1,13 @@
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: orchid;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container:hover{
+    overflow: visible;
+    white-space: normal;
+}
